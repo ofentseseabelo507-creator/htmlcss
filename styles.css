@@ -1,17 +1,53 @@
-h5{
-/* color */
-background-color: blue;
-
-/* font */
-font-size:10px ;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font: weight 350px; 
-
-/* border */
-border:5px dashed red
+.box {
+    width: 200px;
+    border: 4px;
+    padding:24px 0;
+    box-sizing: border-box;
+    margin: 20px 12px;
+    border: 12px solid brown;
 }
 
-.paragraph-1 {
-    color: brown;
+.title {
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0;
+}
+
+body {
+    height: 200vh;
+}
+.parent {
+height: 200px;
+background-color:red ;
+position: sticky;
+
+
+}
+
+.child {
+    height: 35px;
+    width: 35px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+
+
+.title {
+    font-size: 50px;
+}
+
+.stopped {
+    font-size: 30px;
+}
+
+@media (max-width=480px) {
+    .title{
+        font-size: 34px;
+    }
 
 }
