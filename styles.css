@@ -1,53 +1,25 @@
-.box {
-    width: 200px;
-    border: 4px;
-    padding:24px 0;
-    box-sizing: border-box;
-    margin: 20px 12px;
-    border: 12px solid brown;
+button {
+    transition: 300;
 }
 
-.title {
-    background-color: red;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    bottom: 0;
+button:hover {
+opacity:30% ;
+background-color:rgb(255, 11, 0) ;
+padding: 6px;
+border: 4px;
 }
 
-body {
-    height: 200vh;
-}
-.parent {
-height: 200px;
-background-color:red ;
-position: sticky;
-
-
+p {
+    animation: pointdown 3000ms infinite alternate-reverse;
 }
 
-.child {
-    height: 35px;
-    width: 35px;
-    background-color: blue;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    right: 0;
-}
+@keyframes pointdown {
+    0%{
+        transform: translateY(0);
 
-
-.title {
-    font-size: 50px;
-}
-
-.stopped {
-    font-size: 30px;
-}
-
-@media (max-width=480px) {
-    .title{
-        font-size: 34px;
     }
+    100%{
+        transform: translateY(12px) ;
 
+    }
 }
