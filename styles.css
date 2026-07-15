@@ -1,0 +1,17 @@
+h5{
+/* color */
+background-color: blue;
+
+/* font */
+font-size:10px ;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font: weight 350px; 
+
+/* border */
+border:5px dashed red
+}
+
+.paragraph-1 {
+    color: brown;
+
+}
